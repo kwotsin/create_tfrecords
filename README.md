@@ -35,5 +35,12 @@ For example:
 
 - tfrecord_filename (string): The output name of your TFRecord files.
 
+#### Optional Arguments
+- validation_size (float): The proportion of the dataset to be used for evaluation.
+
+- num_shards (int): The number of shards to split your TFRecord files into.
+
+- random_seed (int): The random seed number for repeatability.
+
 ### Complete Guide
 For a complete guide, please visit kwotsin.github.io
