@@ -43,4 +43,4 @@ For example:
 - random_seed (int): The random seed number for repeatability.
 
 ### Complete Guide
-For a complete guide, please visit kwotsin.github.io
+For a complete guide, please visit [kwotsin.github.io](here)
