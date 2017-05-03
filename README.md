@@ -1,6 +1,10 @@
 # create_tfrecords
 A simpler way of preparing large-scale image dataset by generalizing functions from TensorFlow-slim.
 
+### Requirements
+1. Python 2.7.x
+2. TensorFlow >= 0.12
+
 ### Usage
 
     $python create_tfrecord.py --dataset_dir=/path/to/dataset/ --tfrecord_filename=dataset_name
