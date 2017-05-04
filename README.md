@@ -5,6 +5,8 @@ A simpler way of preparing large-scale image dataset by generalizing functions f
 1. Python 2.7.x
 2. TensorFlow >= 0.12
 
+NOTE: If you want to run this program on Python 3, you might need to modify a few lines. See this issue for the solution: https://github.com/kwotsin/create_tfrecords/issues/1
+
 ### Usage
 
     $python create_tfrecord.py --dataset_dir=/path/to/dataset/ --tfrecord_filename=dataset_name
