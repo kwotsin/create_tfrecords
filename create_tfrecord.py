@@ -35,7 +35,7 @@ def main():
 
     #If the TFRecord files already exist in the directory, then exit without creating the files again
     if _dataset_exists(dataset_dir = FLAGS.dataset_dir, _NUM_SHARDS = FLAGS.num_shards, output_filename = FLAGS.tfrecord_filename):
-        print 'Dataset files already exist. Exiting without re-creating them.'
+        print('Dataset files already exist. Exiting without re-creating them.')
         return None
     #==============================================================END OF CHECKS===================================================================
 
@@ -64,7 +64,7 @@ def main():
     labels_to_class_names = dict(zip(range(len(class_names)), class_names))
     write_label_file(labels_to_class_names, FLAGS.dataset_dir)
 
-    print '\nFinished converting the %s dataset!' % (FLAGS.tfrecord_filename)
+    print('\nFinished converting the %s dataset!' % (FLAGS.tfrecord_filename))
 
 if __name__ == "__main__":
     main()
