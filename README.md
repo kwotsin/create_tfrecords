@@ -5,7 +5,7 @@ A simpler way of preparing large-scale image dataset by generalizing functions f
 1. Python 2.7.x
 2. TensorFlow >= 0.12
 
-NOTE: If you want to run this program on Python 3, you might need to modify a few lines. See this issue for the solution: https://github.com/kwotsin/create_tfrecords/issues/1
+**NOTE**: If you want to run this program on Python 3, clone and `git checkout` the Python 3 branch instead.
 
 ### Usage
 
