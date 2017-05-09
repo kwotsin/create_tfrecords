@@ -2,8 +2,10 @@
 A simpler way of preparing large-scale image dataset by generalizing functions from TensorFlow-slim.
 
 ### Requirements
-1. Python
+1. Python 3
 2. TensorFlow >= 0.12
+
+**NOTE**: If you want to run this program in python 2, clone and checkout the master branch instead.
 
 ### Usage
 
