@@ -2,7 +2,7 @@
 A simpler way of preparing large-scale image dataset by generalizing functions from TensorFlow-slim.
 
 ### Requirements
-1. Python 3.x
+1. Python
 2. TensorFlow >= 0.12
 
 ### Usage
