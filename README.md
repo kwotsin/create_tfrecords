@@ -49,4 +49,4 @@ For example:
 - random_seed (int): The random seed number for repeatability.
 
 ### Complete Guide
-For a complete guide, please visit [here](https://kwotsin.github.io/tech/2017/01/29/tfrecords.html).
+For a complete guide, please visit [here](https://kwotsin.github.io/post/create_tfrecords/).
